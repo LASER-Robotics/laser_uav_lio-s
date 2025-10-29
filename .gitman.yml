@@ -1,7 +1,7 @@
 location: .gitman
 sources:
-  - repo: git@github.com:LASER-Robotics/FAST_LIO.git
-    name: FAST_LIO
+  - repo: git@github.com:LASER-Robotics/laser_fast_lio_core.git
+    name: laser_fast_lio_core
     rev: main
     type: git
     params:
@@ -9,6 +9,6 @@ sources:
       -
     links:
       - source: ''
-        target: ros_packages/fast_lio
+        target: ros_packages/laser_fast_lio
     scripts:
       - git submodule update --init --recursive
