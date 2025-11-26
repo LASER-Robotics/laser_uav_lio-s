@@ -2,7 +2,7 @@ location: .gitman
 sources:
   - repo: git@github.com:LASER-Robotics/laser_fast_lio_core.git
     name: laser_fast_lio_core
-    rev: main
+    rev: release/1.0
     type: git
     params:
     sparse_paths:
