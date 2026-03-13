@@ -1,6 +1,6 @@
 location: .gitman
 sources:
-  - repo: git@github.com:LASER-Robotics/laser_fast_lio_core.git
+  - repo: https://github.com/LASER-Robotics/laser_fast_lio_core.git
     name: laser_fast_lio_core
     rev: stable
     type: git
