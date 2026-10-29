@@ -30,7 +30,7 @@ ros2 launch laser_fast_lio_core fast_lio.launch.py topic_pcl:=/uav1/livox/lidar 
 
 `fast_lio_config_file_path` selects the sensor YAML. The profiles configure LiDAR preprocessing, IMU noise, LiDAR-to-IMU extrinsics, map resolution and output publication. Use a profile calibrated for your sensors and mounting, and match its frame names to the UAV namespace.
 
-This collection has no node or runtime parameters of its own. See the [integration README](ros_packages/laser_fast_lio/README.md) for launch arguments, parameters and ROS inputs and outputs.
+This collection has no node or runtime parameters of its own. See the [integration README](https://github.com/LASER-Robotics/laser_fast_lio_core) for launch arguments, parameters and ROS inputs and outputs.
 
 ## Reference
 
